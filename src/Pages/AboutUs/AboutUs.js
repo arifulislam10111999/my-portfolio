@@ -7,8 +7,8 @@ const AboutUs = () => {
         <div className="container-fluid" style={{ backgroundImage: `url(${background})`,paddingTop:"40px" }}  id="about">
             <h1 className="text-center imageBack">About Us</h1>
          <div className="row row-cols-lg-2 row-cols-1 container">
-             <div className="mx-auto text-center pb-5">
-                 <img style={{width:"300px",borderRadius:"50%",backgroundColor:"white",border:"1px  green",boxSizing:"border-box"}} src={arif} alt="my picter" />
+             <div className="mx-auto text-center pb-5 col-lg-4">
+                 <img style={{width:"100%",height:"auto",borderRadius:"50%",backgroundColor:"white",border:"1px  green",boxSizing:"border-box"}} src={arif} alt="my picter" />
                  <h3>Ariful Islam</h3>
                  <h6>MERN stack developer</h6>
                

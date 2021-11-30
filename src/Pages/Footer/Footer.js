@@ -11,12 +11,12 @@ const Footer = () => {
          <div className="col-lg-6">
             <h1>connect with  us</h1>
 
-            <i class="fab fa-skype">  Skype</i>
-            <i class="fab fa-facebook px-2"> Facebook</i>
-            <i class="fab fa-instagram-square"> Instagram</i>
+            <i className="fab fa-skype">  Skype</i>
+            <i className="fab fa-facebook px-2"> Facebook</i>
+            <i className="fab fa-instagram-square"> Instagram</i>
          </div>
          </div>
-         <h6 className="text-center text-white py-2">Don't <i class="far fa-copyright"></i> copy our product</h6>
+         <h6 className="text-center text-white py-2">Don't <i className="far fa-copyright"></i> copy our product</h6>
         </div>
     );
 };

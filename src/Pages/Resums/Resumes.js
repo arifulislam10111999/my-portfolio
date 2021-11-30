@@ -1,8 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import resu from "../resume/Mern stack developer _4.pdf"
 const Resumes = () => {
     return (
+        <div>
+             <Link to="/"> <i className="fas fa-home text-black"> Home</i></Link>
+      
        <div className="container py-5">
+           
            <hr />
             <div className="row mx-auto">
            <div className="col-lg-8 ">
@@ -10,12 +15,13 @@ const Resumes = () => {
               <p style={{fontSize:"30px"}}>Junior web Developer </p> 
            </div>
            <div className="col-lg-4 py-3">
-               <a href={resu}>   <button type="button" class="btn btn-secondary"> RESUME PDF </button></a>
+               <a href={resu}>   <button type="button" className="btn btn-secondary"> RESUME PDF </button></a>
            
             <h4>arifulislam10111999@gmail.com</h4>
             <h4>(+880) 01748921815</h4>
-            <span >GitHub</span>
-            <span className="px-3">Linkedin</span>
+            <a href="https://www.linkedin.com/in/ariful-islam-bb1921207/">   <button  className="LinkHover btn btn-success"  >Linkedin</button></a>
+         <a href="https://github.com/arifulislam10111999"> <button  className="px-3 LinkHover btn btn-success">GitHub</button></a>
+           
            </div>
         </div>
         <hr />
@@ -77,6 +83,7 @@ const Resumes = () => {
             <p>BSC honur's (third semister)</p>
 
         </div>
+       </div>
        </div>
     );
 };

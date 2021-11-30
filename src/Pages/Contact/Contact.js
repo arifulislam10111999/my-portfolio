@@ -5,7 +5,7 @@ const Contact = () => {
     const form = useRef();
 const sendEmail=e=>{
     e.preventDefault();
-    emailjs.sendForm('gmail', 'mynameis1011arif', form.current, 'user_pO9hwogEUYKWjz511uYzx')
+    emailjs.sendForm('service_51den0h', 'template_37hzuf9', form.current, 'user_pO9hwogEUYKWjz511uYzx')
     .then((result)=> {
              console.log(result.text);
          }, (error) => {
@@ -14,15 +14,7 @@ const sendEmail=e=>{
              });
              e.target.reset()
     
-}    // const sendEmail = (e) => {
-    //   e.preventDefault();
-    // emailjs.sendForm('gmail', 'template_37hzuf9', form.current, 'user_pO9hwogEUYKWjz511uYzx')
-    // .then((result) => {
-    //     console.log(result.text);
-    // }, (error) => {
-    //     console.log(error.text);
-     
-    //     });
+}   
     return (
         <div id="contact">
 

@@ -1,0 +1,5 @@
+.LinkHover:hover{
+    background-color: white;
+    color: red;
+    border-radius: 20px;
+}

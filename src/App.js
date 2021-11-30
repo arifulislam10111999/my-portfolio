@@ -10,6 +10,11 @@ import Home from "./Pages/Home/Home";
 import AboutUs from "./Pages/AboutUs/AboutUs";
 import Resumes from "./Pages/Resums/Resumes";
 import Footer from "./Pages/Footer/Footer";
+import Blog from "./Pages/Blog/Blog";
+import Cars from "./Pages/Cars/Cars";
+import Park from "./Pages/Park/Park";
+import Helth from "./Pages/Helth/Helth";
+import Onion from "./Pages/Onion/Onion";
 
 
 function App() {
@@ -20,7 +25,12 @@ function App() {
     
       <Route path="/" element={<Home />} />
       <Route path="/resume" element={<Resumes />} />
-      {/* <Route path="/" element={<Footer />} /> */}
+      <Route path="/blog" element={<Blog />} />
+      <Route path="/cars" element={<Cars />} />
+      <Route path="/park" element={<Park />} />
+      <Route path="/health" element={<Helth />} />
+      <Route path="/onion" element={<Onion />} />
+      
 
     
   

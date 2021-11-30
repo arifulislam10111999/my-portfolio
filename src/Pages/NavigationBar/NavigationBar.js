@@ -1,5 +1,5 @@
 import React from 'react';
-
+import  './Navigation.css'
 import { HashLink as Link } from 'react-router-hash-link';
 const NavigationBar = () => {
     return (
@@ -9,37 +9,37 @@ const NavigationBar = () => {
    
   
    <div className="container-fluid">
-      <img src="https://mir-s3-cdn-cf.behance.net/projects/404/eede66117998121.Y3JvcCwxMTExLDg2OSw0MDQsMTA0.jpg" alt="hit"  style={{width:"80px",paddingRight:"30px"}}/>
+      {/* <img src="https://mir-s3-cdn-cf.behance.net/projects/404/eede66117998121.Y3JvcCwxMTExLDg2OSw0MDQsMTA0.jpg" alt="hit"  style={{width:"80px",paddingRight:"30px"}}/> */}
   <h5 className="pe-5 fw-bolder">ARIFUL</h5> 
      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button> 
     <div className="collapse navbar-collapse fw-bolder" id="navbarNav">
    
-      <ul className="navbar-nav nav justify-content-end ">
+      <ul className="navbar-nav  justify-content-between ">
       <li className="nav-item px-4">
-          <Link smooth className="nav-link active" aria-current="page" to="#homeChield">HOME</Link>
+          <Link smooth className="nav-link active LinkHover" aria-current="page" to="#homeChield">HOME</Link>
         </li>
         <li className="nav-item px-4">
-          <Link smooth className="nav-link active" aria-current="page" to="#about">ABOUT US</Link>
+          <Link smooth className="nav-link active LinkHover" aria-current="page" to="#about">ABOUT US</Link>
         </li>
         <li className="nav-item px-4">
-          <Link smooth className="nav-link active" aria-current="page" to="#service">SERVICE</Link>
+          <Link smooth className="nav-link active LinkHover" aria-current="page" to="#service">SERVICE</Link>
         </li>
         <li className="nav-item px-4">
-          <Link className="nav-link active" aria-current="page" to="#experience">EXPERIENCE</Link>
+          <Link className="nav-link active LinkHover" aria-current="page" to="#experience">EXPERIENCE</Link>
         </li>
         <li className="nav-item px-4">
-          <Link className="nav-link active" aria-current="page" to="#portfolio">PORTFOLIO</Link>
-        </li>
-        {/* <li className="nav-item px-4">
-          <Link className="nav-link active" aria-current="page" to="#blog">BLOG</Link>
-        </li> */}
-        <li className="nav-item px-4">
-          <Link className="nav-link active" aria-current="page" to="#contact">CONTACT</Link>
+          <Link className="nav-link active LinkHover" aria-current="page" to="#portfolio">PORTFOLIO</Link>
         </li>
         <li className="nav-item px-4">
-          <Link className="nav-link active" aria-current="page" to="/resume">RESUME</Link>
+          <Link className="nav-link active LinkHover" aria-current="page" to="/blog">BLOG</Link>
+        </li>
+        <li className="nav-item px-4">
+          <Link className="nav-link active LinkHover" aria-current="page" to="#contact">CONTACT</Link>
+        </li>
+        <li className="nav-item px-4">
+          <Link className="nav-link active LinkHover" aria-current="page" to="/resume">RESUME</Link>
         </li>
         
       </ul>
