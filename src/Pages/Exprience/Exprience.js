@@ -10,8 +10,9 @@ const Exprience = () => {
     <div className="card">
       <div className="card-body">
         <h4 className="card-title">I did a course from programming hero  </h4>
-        <p className="card-text">From course i learned modern web technology that is make me great developer . I really appreciate for the programming hero to make me a suitable and heard worker persona  </p>
-        <p>Technology skills that i learned</p>
+        <p className="card-text">A course that I finished from Programming Hero.
+From the course I've learned about modern web technology which made me a  great developer. I'm really grateful to Programming Hero for helping me enhance my knowledge and skills to be more suitable and motivated in doing the tasks. </p>
+        <p>Technological skills that I learned:</p>
         <ul>
           <li>Html</li>
           <li>JavaScript</li>
