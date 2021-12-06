@@ -2,7 +2,7 @@ import React from 'react';
 
 const Education = () => {
     return (
-        <div className="">
+        <div className="pb-3">
                  <h1 className="text-center py-5 ">Education & Skills</h1>
                  <div className="row row-cols-lg-2 row-cols-1">
                      <div>
@@ -28,7 +28,7 @@ const Education = () => {
          </div>
           </div>
           <div className="">
-    
+    <h1>Technology Skills :</h1>
          <div >
          <h1  style={{width:"20px"}}> HTML</h1>
          </div>
@@ -59,6 +59,14 @@ const Education = () => {
           <div className="progress">
          
         <div style={{width:"85%"}} className="progress-bar  col-sm-6" role="progressbar" aria-valuenow="90" aria-valuemin="90"  aria-valuemax="100"> 85%
+       </div>
+        </div>
+         <div >
+         <h1  style={{width:"20px"}}>MONGODB </h1>
+         </div>
+          <div className="progress">
+         
+        <div style={{width:"75%"}} className="progress-bar  col-sm-6" role="progressbar" aria-valuenow="90" aria-valuemin="90"  aria-valuemax="100"> 75%
        </div>
         </div>
 

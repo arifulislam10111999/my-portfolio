@@ -14,7 +14,7 @@ const AboutUs = () => {
                
              </div>
              <div>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure officiis, labore cupiditate porro possimus sapiente minus vel reprehenderit atque neque deserunt magnam facilis ut obcaecati necessitatibus, eaque eius! Quasi, asperiores?</p>
+              <p>Hi, I am a junior web developer . programming has been my passion  from my childhood . My university and my programming  course have given me a perfect way to teach that will make me a good learner and gain  perfect knowledge. I am good at for this role  </p>
                
                <h3>Personal info</h3>
 

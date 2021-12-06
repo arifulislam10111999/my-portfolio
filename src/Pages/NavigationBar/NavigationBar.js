@@ -5,7 +5,7 @@ const NavigationBar = () => {
     return (
         <div className="">
     
-<nav style={{backgroundColor:"#DAD8D9"}} className="navbar navbar-expand-lg navbar-light  fixed-top">
+<nav style={{backgroundColor:"#DAD8D9"}} className="navbar navbar-expand-lg navbar-light  fixed-top ">
    
   
    <div className="container-fluid">

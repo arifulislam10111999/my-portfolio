@@ -6,6 +6,7 @@ import Exprience from '../Exprience/Exprience';
 import Footer from '../Footer/Footer';
 import NavigationBar from '../NavigationBar/NavigationBar';
 import Portfolio from '../Portfolio/Portfolio';
+import Read from '../Read/Read';
 import Service from '../Service/Service';
 import HomeChild from './HomeChild';
 
@@ -17,6 +18,7 @@ const Home = () => {
          <AboutUs></AboutUs>
           <Service></Service>
           <Exprience></Exprience>
+     
           <Portfolio></Portfolio>
           {/* <Blog></Blog> */}
           <Contact></Contact>
