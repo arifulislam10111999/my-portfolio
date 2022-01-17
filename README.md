@@ -1,5 +1,5 @@
 # Website mockup with different devices
-<img style={width:"50%"} src="https://i.ibb.co/2tQPrh2/Screenshot-24.png" />
+<img  src="https://i.ibb.co/2tQPrh2/Screenshot-24.png" width:"100px" heigth:"100px" />
 
 
 
