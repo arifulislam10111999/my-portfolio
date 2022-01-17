@@ -1,6 +1,13 @@
 # Website mockup with different devices
-<img  src="https://i.ibb.co/2tQPrh2/Screenshot-24.png" width:"100" heigth:"10" >
+<img  src="https://i.ibb.co/2tQPrh2/Screenshot-24.png"   />
 
+# This is  my portfolio web app.
+## techonology are uses 
+<li> JavaScript</li>
+<li> React.js</li>
+<li> Bootstrap </li>
+<li> Html</li>
+<li> CSS</li>
 
 
 
@@ -8,7 +15,7 @@
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open live preview web site: https://ariful-islam-portfolio-website.netlify.app/ to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
