@@ -1,5 +1,5 @@
 # Website mockup with different devices
-<img src="https://i.ibb.co/qM2v6Sb/portfloio-mockup.png" />
+<img style={width:"50%"} src="https://i.ibb.co/2tQPrh2/Screenshot-24.png" />
 
 
 
